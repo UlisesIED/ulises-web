@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'KarmaSuture';
-  src: url('/assets/fonts/Karma_Suture.otf');
+  src: url('../../public/assets/fonts/Karma_Suture.otf');
 }
 
 html {

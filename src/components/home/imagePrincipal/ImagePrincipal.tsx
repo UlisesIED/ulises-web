@@ -1,5 +1,5 @@
-
 import Image from "next/image";
+import imagen from '../../../../public/assets/images/gato-logo.png';
 
 export function ImagePrincipal() {
     return (
@@ -47,7 +47,7 @@ export function ImagePrincipal() {
                     rounded-full
                     animate-bounce
                 "
-                src="/assets/images/gato-logo.png"
+                src={imagen}
                 alt=""
                 width={180}
                 height={37}
