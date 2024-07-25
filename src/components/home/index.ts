@@ -1,0 +1,7 @@
+export * from './cardProjects'
+export * from './contact'
+export * from './imagePrincipal'
+export * from './leftSide'
+export * from './links'
+export * from './messageHome'
+export * from './specializations'

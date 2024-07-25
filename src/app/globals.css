@@ -16,18 +16,32 @@
   }
 }
 
+@font-face {
+  font-family: 'KarmaSuture';
+  src: url('/assets/fonts/Karma_Suture.otf');
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #000;
+  scroll-behavior: smooth !important;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
