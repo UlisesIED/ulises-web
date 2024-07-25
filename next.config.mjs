@@ -3,7 +3,6 @@
 
 const nextConfig = {
   output: "export",  // <=== enables static exports
-  distDir: "static-dir",
   images: {
     unoptimized: true
   }
