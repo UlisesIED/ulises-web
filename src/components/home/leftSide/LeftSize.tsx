@@ -42,7 +42,7 @@ export function Left_size(props: any) {
                     </p>
                 </div>
 
-                <p className="mt-4 text-text-normal whitespace-pre-wrap font-mono text-[#f0f8ff]">
+                <p className="mt-4 text-text-normal whitespace-pre-wrap font-mono text-[#fff]">
                     {language.about}
                 </p>
 
