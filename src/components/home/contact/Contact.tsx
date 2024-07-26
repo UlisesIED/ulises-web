@@ -8,7 +8,7 @@ export function Contact(props: any) {
 
     return (
         <div>
-            <p className="mt-4  whitespace-pre-wrap font-mono text-[#f0f8ff]">
+            <p className="mt-4  whitespace-pre-wrap font-mono text-[#fff]">
                 {contact.description}
             </p>
             <div className="
